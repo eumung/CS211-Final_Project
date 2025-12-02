@@ -1,13 +1,13 @@
-<h1 align="center" style="color:#F8BBD0;">🌷 ｡･ﾟﾟ･ UniBookmark Manager ･ﾟﾟ･｡ 🌷</h1>
-<p align="center" style="color:#F48FB1; font-style:italic;">Your cozy console-based bookmark keeper ♡</p>
+<h1 align="center">🌷 ｡･ﾟﾟ･ UniBookmark Manager ･ﾟﾟ･｡ 🌷</h1>
+<p align="center"><i>Your cozy console-based bookmark keeper ♡</i></p>
 
-<p align="center" style="font-family:monospace; color:#CE93D8;">
-             _ _                 _                         _    <br>
- /\ /\ _ __ (_) |__   ___   ___ | | ___ __ ___   __ _ _ __| | __<br>
-/ / \ \ '_ \| | '_ \ / _ \ / _ \| |/ / '_ ` _ \ / _` | '__| |/ /<br>
-\ \_/ / | | | | |_) | (_) | (_) |   &lt;| | | | | | (_| | |  |   &lt;<br>
+<pre align="center">
+             _ _                 _                         _
+ /\ /\ _ __ (_) |__   ___   ___ | | ___ __ ___   __ _ _ __| | __
+/ / \ \ '_ \| | '_ \ / _ \ / _ \| |/ / '_ ` _ \ / _` | '__| |/ /
+\ \_/ / | | | | |_) | (_) | (_) |   <| | | | | | (_| | |  |   <
  \___/|_| |_|_|_.__/ \___/ \___/|_|\_\_| |_| |_|\__,_|_|  |_|\_\
-</p>
+</pre>
 
 <p align="center" style="color:#CE93D8;">
 CS-2105<br>
@@ -176,4 +176,5 @@ Subject: Mechanics
 
 <h2 style="color:#F48FB1;">🍀 Acknowledgment</h2>
 <p style="color:#BA68C8;">We would like to express our gratitude to our most coquette soft girly instructor <b>Ma’am Fatima Marie P. Agdon. </b>.We would like to extend our gratitude to our pets, Cotton Buds, Harris, Mingming, Mongmong, and Rado for their support throughout this project.</p>
+
 
