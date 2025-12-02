@@ -94,27 +94,61 @@ With UniBookmark, users can:
 3. Update Bookmark
 4. Delete Bookmark
 5. Exit
+
 Choose an option: 1
 
 Choose type of bookmark:
 1. Manga
 2. Novel
-Enter type: 1
+3. Textbook
 
-Enter title: One Piece
-Enter page number: 88
-Enter chapter number: 1050
-Enter artist: Eiichiro Oda
+Enter type: 2
+Enter title: The Alchemist
+Enter page number: 150
+Enter chapter number: 18
+Enter author: Paulo Coelho
 
-Bookmark for "One Piece" is added!
+Bookmark for "The Alchemist" is added!
 
 --- Bookmark Manager ---
+1. Add Bookmark
+2. View Bookmarks
+3. Update Bookmark
+4. Delete Bookmark
+5. Exit
+
+Choose an option: 1
+
+Choose type of bookmark:
+1. Manga
+2. Novel
+3. Textbook
+
+Enter type: 3
+Enter title: Physics 101
+Enter page number: 45
+Enter chapter number: 7
+Enter subject: Mechanics
+
+Bookmark for "Physics 101" is added!
+
+--- Bookmark Manager ---
+1. Add Bookmark
+2. View Bookmarks
+3. Update Bookmark
+4. Delete Bookmark
+5. Exit
+
 Choose an option: 2
 
-Bookmark #1
-Title: One Piece (Manga)
-Page: 88, Chapter: 1050
-Artist: Eiichiro Oda
+Bookmark #1 Title: The Alchemist (Novel)
+Page: 150, Chapter: 18
+Author: Paulo Coelho
+
+Bookmark #2 Title: Physics 101
+Page: 45, Chapter: 7
+Subject: Mechanics
+
 </pre>
 
 <h2 style="color:#F48FB1;">🌼 Contributors</h2>
@@ -141,5 +175,5 @@ Artist: Eiichiro Oda
 <hr style="border:1px solid #F8BBD0;">
 
 <h2 style="color:#F48FB1;">🍀 Acknowledgment</h2>
-<p style="color:#BA68C8;">We would like to express our gratitude to our <b>lovely instructor Ma’am Fatima Marie P. Agdon</b>.  
-We also thank our pets — Cotton Buds, Harris, Mingming, Mongmong, and Rado — for their support throughout this project.</p>
+<p style="color:#BA68C8;">We would like to express our gratitude to our most coquette soft girly instructor <b>Ma’am Fatima Marie P. Agdon. </b>.We would like to extend our gratitude to our pets, Cotton Buds, Harris, Mingming, Mongmong, and Rado for their support throughout this project.</p>
+
