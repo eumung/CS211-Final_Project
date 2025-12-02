@@ -87,7 +87,10 @@ With UniBookmark, users can:
 <hr style="border:1px solid #F8BBD0;">
 
 <h2 style="color:#F48FB1;">🌷 Sample Output</h2>
-<pre style="background-color:#F3E5F5; padding:10px; border-radius:10px; color:#6A1B9A;">
+
+<div style="background-color:#F3E5F5; padding:10px; border-radius:10px; color:#6A1B9A;">
+
+```txt
 --- Bookmark Manager ---
 1. Add Bookmark
 2. View Bookmarks
@@ -148,9 +151,7 @@ Author: Paulo Coelho
 Bookmark #2 Title: Physics 101
 Page: 45, Chapter: 7
 Subject: Mechanics
-
-</pre>
-
+</div> ```
 <h2 style="color:#F48FB1;">🌼 Contributors</h2>
 
 <table>
@@ -176,5 +177,6 @@ Subject: Mechanics
 
 <h2 style="color:#F48FB1;">🍀 Acknowledgment</h2>
 <p style="color:#BA68C8;">We would like to express our gratitude to our most coquette soft girly instructor <b>Ma’am Fatima Marie P. Agdon. </b>.We would like to extend our gratitude to our pets, Cotton Buds, Harris, Mingming, Mongmong, and Rado for their support throughout this project.</p>
+
 
 
