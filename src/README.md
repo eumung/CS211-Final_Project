@@ -1,31 +1,49 @@
-# <p style= "text-align: center;"> 🌷 ｡･ﾟﾟ･ UniBookmark Manager ･ﾟﾟ･｡ 🌷</p>
- <p style= "text-align: center;"> Your cozy console-based bookmark keeper ♡</p>
-<p style= "text-align: center;"> CS-2105 </p>
-  <p style= "text-align: center;"> Bacay, Kotnie Edrae L.</p>
-  <p style= "text-align: center;">Dadap, Amber Loveine R.</p>
-  <p style= "text-align: center;">Derez, Eume C. </p>
+# <p style="text-align: center;">🌷 ｡･ﾟﾟ･ UniBookmark Manager ･ﾟﾟ･｡ 🌷</p>
+<p style="text-align: center;">Your cozy console-based bookmark keeper ♡</p>
 
-_________________
+<p align="center">
+
+             _ _                 _                         _    
+ /\ /\ _ __ (_) |__   ___   ___ | | ___ __ ___   __ _ _ __| | __
+/ / \ \ '_ \| | '_ \ / _ \ / _ \| |/ / '_ ` _ \ / _` | '__| |/ /
+\ \_/ / | | | | |_) | (_) | (_) |   <| | | | | | (_| | |  |   < 
+ \___/|_| |_|_|_.__/ \___/ \___/|_|\_\_| |_| |_|\__,_|_|  |_|\_\
+
+</p>
+
+<p style="text-align: center;">CS-2105</p>
+<p style="text-align: center;">Bacay, Kotnie Edrae L.</p>
+<p style="text-align: center;">Dadap, Amber Loveine R.</p>
+<p style="text-align: center;">Derez, Eume C.</p>
+
+---
 
 ### ✿˚｡⋆ Overview
- UniBookmark Manager is a simple console program that helps users organize their book bookmarks. You can add, view, update, and delete bookmarks directly from the terminal, making it easy to remember where you last stopped reading!
+UniBookmark Manager is a simple console program that helps users organize their reading progress.  
+You can add, view, update, and delete bookmarks right from the terminal.It's perfect for tracking mangas, novels, and textbooks in one place!
 
-This project showcases **Object-Oriented Programming (OOP)** in Java, using concepts like **encapsulation, inheritance, polymorphism**, and **abstraction** to build a neat and expandable program.
+This project demonstrates key **Object-Oriented Programming (OOP)** concepts such as **abstraction, inheritance, encapsulation**, and **polymorphism** through multiple book types.
 
 With UniBookmark, users can:
- 📖 Add a new bookmark with details and notes
- 🌸 View all saved bookmarks in a list
- 🖊️ Edit existing bookmarks easily
- 🗑️ Delete bookmarks that are no longer needed
+ 📚 Add bookmarks for **Manga**, **Novel**, or **Textbook**  
+ 🌸 View a neatly listed collection of bookmarked readings  
+ 🖊️ Update reading progress or creator details  
+ 🗑️ Delete bookmarks you no longer need  
 
-#### Bookmark Storage
- 🪄 All bookmarks are stored temporarily in memory using an ArrayList<Book> while the program is running.
+#### Bookmark Storage  
+🪄 All bookmarks are stored in memory using **`ArrayList<Book>`** while the program runs.
 
-#### 🐚˚｡⋆ Project Structure
- 📂 src/
- └── 📂 Unibookmark/
-     🍃 **Main.java** — Contains the main menu and handles user input and program flow.
-     🌼 **Book.java** — Abstract class representing a book, with a subclass for detailed bookmarks that include personal notes.
+---
+
+### 🐚˚｡⋆ Project Structure
+
+📂 src/
+└── 📂 UniBookMark/
+🍃 Main.java — Main menu, user input, and program flow
+🌼 Book.java — Abstract parent class for all bookmark types
+🌸 Manga.java — Subclass with an added 'artist' field
+📖 Novel.java — Subclass with an added 'author' field
+📘 Textbook.java — Subclass with an added 'subject' field
 
  _____
 
@@ -41,31 +59,41 @@ With UniBookmark, users can:
 `java unibookmark.Main`
 
 
-### 🌸˚｡⋆Features
- ✨ **Add Bookmark** — Create a new bookmark by entering its title, page, chapter, and personal note.
- 🌷 **View Bookmarks** — Display all saved bookmarks in order.
- 🪶 **Update Bookmark** — Change the title, page number, or note of any bookmark.
- 💌 **Delete Bookmark** — Remove a bookmark permanently.
+---
 
-_________________
+### 🌸˚｡⋆Features
+ ✨ **Add Bookmark**  
+Choose whether you're saving a *Manga*, *Novel*, or *Textbook*, then enter its details.
+
+ 🌷 **View Bookmarks**  
+Lists all saved bookmarks and automatically displays the correct details for each book type.
+
+ 🪶 **Update Bookmark**  
+Modify the title, page, chapter, or unique attributes (artist/author/subject).
+
+ 💌 **Delete Bookmark**  
+Remove any bookmark permanently based on its number.
+
+---
 
 ### 🫧˚｡⋆Object-Oriented Principles
+
 #### 💞 Encapsulation
- Important bookmark details like title, page number, and notes are kept private and accessed through methods. This keeps the data organized and protected.
+Fields like title, page, chapter, artist, author, and subject are private and accessed through getters and setters.
 
 #### 🌿 Abstraction
- The `Book` class serves as a blueprint for all bookmarks. The subclass `DetailedBookmark` provides the full details and defines how each bookmark is displayed through `displayInfo().`
+`Book` acts as a blueprint for all bookmarks, defining shared properties and the abstract `displayInfo()` method.
 
 #### 🌼 Inheritance
-`DetailedBookmark` inherits from `Book`, showing how subclasses can expand and reuse the structure of a parent class.
+`Manga`, `Novel`, and `Textbook` extend `Book`, inheriting and enhancing its structure.
 
 #### 🌈 Polymorphism
- By using an `ArrayList<Book>`, the program can handle different bookmark objects through one shared type. When `displayInfo()` is called, it automatically runs the correct version for each bookmark type.
+Bookmarks are stored inside **`ArrayList<Book>`**.  
+Calling `displayInfo()` automatically runs the correct version for the object type.
 
- _________________
+---
 
 ### 🌷˚｡⋆ Sample Output
-```
 --- Bookmark Manager ---
 1. Add Bookmark
 2. View Bookmarks
@@ -74,29 +102,27 @@ _________________
 5. Exit
 Choose an option: 1
 
-Enter title: The Little Prince
-Enter page number: 42
-Enter chapter Number: 7
-Enter note: The fox’s secret ♡
+Choose type of bookmark:
+1. Manga
+2. Novel
+Enter type: 1
 
-Bookmark for "The Little Prince" added successfully!
+Enter title: One Piece
+Enter page number: 88
+Enter chapter number: 1050
+Enter artist: Eiichiro Oda
+
+Bookmark for "One Piece" is added!
 
 --- Bookmark Manager ---
-1. Add Bookmark
-2. View Bookmarks
-3. Update Bookmark
-4. Delete Bookmark
-5. Exit
 Choose an option: 2
 
 Bookmark #1
-Title: The Little Prince
-Page: 42
-Chapter: 7
-Note: The fox’s secret ♡ 
-```
+Title: One Piece (Manga)
+Page: 88, Chapter: 1050
+Artist: Eiichiro Oda
 
-_________________
+---
 
 #### 🌼˚｡⋆ Contributors
 
@@ -122,4 +148,5 @@ _________________
 _________________
 
 #### 🍀˚₊· Acknowledgment
+
  We would like to express our gratitude to our most coquette soft girly instructor Ma’am Fatima Marie P. Agdon. We would like to extend our gratitude to our pets, Cotton Buds, Harris, Mingming, Mongmong, and Rado for their support throughout this project.  
