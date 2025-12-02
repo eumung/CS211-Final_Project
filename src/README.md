@@ -151,7 +151,6 @@ Author: Paulo Coelho
 Bookmark #2 Title: Physics 101
 Page: 45, Chapter: 7
 Subject: Mechanics
-</div> ```
 
 <h2 style="color:#F48FB1;">🌼 Contributors</h2>
 
@@ -178,6 +177,7 @@ Subject: Mechanics
 
 <h2 style="color:#F48FB1;">🍀 Acknowledgment</h2>
 <p style="color:#BA68C8;">We would like to express our gratitude to our most coquette soft girly instructor <b>Ma’am Fatima Marie P. Agdon. </b>.We would like to extend our gratitude to our pets, Cotton Buds, Harris, Mingming, Mongmong, and Rado for their support throughout this project.</p>
+
 
 
 
